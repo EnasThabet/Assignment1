@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    android:orientation="vertical"
+    tools:context=".Activity4">
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/backHome"
+        android:src="@drawable/back"
+        android:layout_gravity="left"
+        android:background="@color/white"
+        android:onClick="btnBackClick"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/myStyle"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="Circle Low "
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:src="@drawable/circle"
+
+        />
+
+
+    <EditText
+        android:id="@+id/editTextText"
+        style="@android:style/Widget.Material.AutoCompleteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="What is a Circle ?"
+        android:textColor="#113A5A"
+        android:textColorHighlight="#DC5E5E"
+        android:textColorHint="#00BCD4"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="A circle is a round-shaped figure that has no corners or edges.
+In geometry, a circle can be defined as a closed shape, two-dimensional shape, curved shape. "
+        android:textColor="#141A3A"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        style="@style/myStyle"
+        android:ems="10"
+        android:inputType="text"
+        android:textSize="15dp"
+        android:text="Here is an example to understand the low more" />
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/example4"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        />
+</LinearLayout>

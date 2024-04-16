@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity3">
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/backHome"
+        android:src="@drawable/back"
+        android:layout_gravity="left"
+        android:background="@color/white"
+        android:onClick="btnBackClick"
+        />
+
+    <TextView
+        android:id="@+id/Square"
+        style="@style/myStyle"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="Square Low "
+
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:src="@drawable/square"
+
+        />
+
+
+    <EditText
+        android:id="@+id/SquareText"
+        style="@style/myStyle"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="What is a Square ?"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="A square is a two-dimensional closed shape with 4 equal sides and 4 vertices. Its opposite sides are parallel to each other. We can also think of a square as a rectangle with equal length and breadth. "
+        android:textColor="#141A3A"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/SquareText2"
+        style="@style/myStyle"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="text"
+      android:textSize="15dp"
+        android:text="Here is an example to understand the low more"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/example2"
+        android:layout_marginTop="10dp"
+        />
+</LinearLayout>

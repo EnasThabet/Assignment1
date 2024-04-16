@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Assignment1</string>
+    <string-array name="options">
+        <item>Rectangle</item>
+        <item>Square</item>
+        <item>Circle </item>
+        <item>Parallelogram </item>
+        <item>Triangle</item>
+    </string-array>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+</resources>

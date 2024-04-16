@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    android:orientation="vertical"
+    tools:context=".GoActivity">
+<ImageButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/backHome"
+android:src="@drawable/back"
+    android:layout_gravity="left"
+    android:background="@color/white"
+    android:onClick="btnBackClick"
+    />
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/myStyle"
+        android:text="Rectangle Low "
+        android:layout_gravity="center"
+        android:textStyle="bold"
+         />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:src="@drawable/regtangel"
+
+        />
+
+
+    <EditText
+        android:id="@+id/editTextText"
+        style="@style/myStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="What is a rectangle ?"
+
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="A rectangle is a type of quadrilateral that has its parallel sides equal to each other and all the four vertices are equal to 90 degrees. Hence, it is also called an equiangular quadrilateral. "
+        android:textColor="#141A3A"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        style="@style/myStyle"
+        android:id="@+id/editTextText2"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textSize="15dp"
+        android:text="Here is an example to understand the low more"
+   />
+
+    <ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/example1"
+    android:layout_marginTop="20dp"
+    />
+</LinearLayout>
